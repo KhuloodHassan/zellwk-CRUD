@@ -94,17 +94,3 @@ app.delete('/quotes', async (req, res) => {
         console.error(error)
     }
 })
-
-
-// async function startServer() {
-//     try {
-//         await connectToDatabase();
-//         app.listen(PORT, () => {
-//             console.log(`Listening on ${PORT}`);
-//         });
-//     } catch (error) {
-//         console.error(error);
-//     }
-// }
-
-// startServer();
